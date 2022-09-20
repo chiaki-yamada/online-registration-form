@@ -7,7 +7,7 @@ h1, h2, legend {
   font-weight: bold;
 }
 p, label {
-  font-size: 1.25rem;
+  font-size: 1.30rem;
   color: gray;
 }
 
@@ -50,3 +50,24 @@ form:before {
 legend {
   margin-bottom: 25px;
 }
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 80px;
+}
+
+input, select {
+  background-color: #e0e0e0;
+  border-style: none;
+}
+
+#name::placeholder {
+  text-align: right;
+  margin-right: 20px;
+}
+#email::placeholder {
+  text-align: right;
+  margin-right: 20px;
+}
+
