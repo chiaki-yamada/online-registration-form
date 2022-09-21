@@ -80,10 +80,9 @@ legend {
 .fieldset-1 {
   border-bottom: darkblue 3px solid;
 }
-#zip {
+.zip {
   margin-bottom: 50px;
 }
-
 
 /*---main-field2---*/
 .fieldset-2 {
@@ -129,23 +128,59 @@ footer {
   }
   
 
-
   .head-title, main, footer {
     max-width: 600px;
     margin: auto;
   }
 
+  
   label {
     width: 25%;
   }
   input {
     width: 70%;
   }
-  .name, .zip {
+  .name {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
+
+  .zip {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .zip label {
+    width: 115px;
+  }
+
+
+  .fieldset-2 {
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .fieldset-2 legend {
+    margin-bottom: 5px;
+  }
+  .fieldset-2 input {
+    width: auto;
+  }
+  input[type=checkbox], [type=radio] {
+    transform: scale(1);
+    margin-right: 15px;
+  }
+  button {
+    height: 50px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+  }
+
+
 
 }
 
