@@ -17,6 +17,16 @@ input, select, textarea {
   border-radius: 5px;
 }
 
+input:focus {
+  outline: none;
+  border-bottom: 5px solid darkblue;
+}
+textarea:focus {
+  outline: none;
+  border-bottom: 5px solid darkblue;
+}
+
+
 /*---header----*/
 header h1 {
   margin-top: 0;
@@ -176,11 +186,10 @@ footer {
     height: 50px;
     font-size: 1rem;
     margin-bottom: 20px;
-
   }
 
-
-
+  
+  
 }
 
 
