@@ -166,6 +166,8 @@ footer {
   input {
     width: 70%;
   }
+
+
   .name {
     display: flex;
     flex-direction: row;
