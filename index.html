@@ -28,7 +28,7 @@
         <div class="contact-info"> 
           <div class="name">
             <label for="name">Full Name</label>
-            <input required type="name" id="name" name="user_name" placeholder="Required">
+            <input required type="text" id="name" name="user_name" placeholder="Required">
           </div>
   
           <div class="name">
@@ -43,12 +43,12 @@
 
           <div class="name">
             <label for="address">Street Address</label>
-            <input required type="address" id="address" name="user_address" placeholder="Required">
+            <input required type="text" id="address" name="user_address" placeholder="Required">
           </div>
 
           <div class="name">
             <label for="city">City</label>
-            <input required type="city" name="user_city" id="city" placeholder="Required">
+            <input required type="text" name="user_city" id="city" placeholder="Required">
           </div>
     
           <div class="name">
@@ -63,7 +63,7 @@
           
           <div class="zip">
             <label for="zip">Zip Code</label>
-            <input type="zip" name="user_zip" id="zip">
+            <input type="text" name="user_zip" id="zip">
           </div>
         </div>
       </fieldset>
@@ -72,12 +72,12 @@
       <fieldset class="fieldset-2">
         <legend>Newsletter</legend>
         <label>Select the newsletter you would like to receive</label><br>
-        <input type="checkbox" id="htmlnews" value="interest_html" name="user_interest"><label for="htmlnews" class="light">HTML News</label><br><input type="checkbox" id="cssnews" value="interest_css" name="user_interest"><label for="cssnews" class="light">CSS News</label><br><input type="checkbox" id="javascriptnews" value="interest_javascript" name="user_interest"><label for="javascriptnews" class="light">Javascript News</label><br><br>
+        <input required type="checkbox" id="htmlnews" value="interest_html" name="user_interest"><label for="htmlnews" class="light">HTML News</label><br><input type="checkbox" id="cssnews" value="interest_css" name="user_interest"><label for="cssnews" class="light">CSS News</label><br><input type="checkbox" id="javascriptnews" value="interest_javascript" name="user_interest"><label for="javascriptnews" class="light">Javascript News</label><br><br>
   
         <label>Newsleteer format</label><br>
-        <input type="radio" id="html" value="format_html" name="format"><label for="html" class="light">HTML</label><br><input type="radio" id="plaintext" value="format_plaintext" name="format"><label for="plaintext" class="light">Plain text</label><br><br>
+        <input required type="radio" id="html" value="format_html" name="format_1"><label for="html" class="light">HTML</label><br><input type="radio" id="plaintext" value="format_plaintext" name="format_2"><label for="plaintext" class="light">Plain text</label><br><br>
   
-        <label>Other topics you'd like to hear about</lable>
+        <label for="comment">Other topics you'd like to hear about</lable>
         <textarea name="user_other_interest" id="comment" style="width: 100%; height: 140px;"></textarea>
       </fieldset>
   
